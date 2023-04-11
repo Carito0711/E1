@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<htmal>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Formulario de registro</title>
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+          <!--Input de tipo "text"-->
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre"/>
+  <br/><br/>
+  <!--Siempre tienen que coincidir el for del lebel y el id del input-->
+  
+  <label for="apellido">Apellido:</label>
+  <input type="text" id="apellido"/>
+
+  <br><br>
+  <!--Input de tipo radio (que tiene que selecionar solo un boton de algunas cosas)-->
+Modalidad de Cursada:
+<input type="radio" name="modalidad" id="On-Demand" />
+<label for="On-Demand">On-Demand</label>
+<input type="radio" name="modalidad" id="En-vivo"/>
+<label for="En-vivo">En vivo</label>
+<br><br>
+<label for="correo">Correo:</label>
+<input type="email" id="correo"/>
+<br><br>
+<label for="checkbox1">Deseo recibir informacion sobre nuevos posteos en la plataforma de Nucba.</label>
+<input type="checkbox" id="checkbox1"/> <br/><br/>
+<label for="checkbox2">Declaro que lee los terminos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.</label>
+<input type="checkbox" id="checkbox2"/> <br/><br/>
+<button type="submit" >Enviar</button>
+    </body>
+</htmal>    
